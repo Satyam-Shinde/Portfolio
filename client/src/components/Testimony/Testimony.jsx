@@ -7,7 +7,7 @@ const Testimony = () => {
     const [testimoniesData, setTestimoniesData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/api/testimonies')
+        fetch('https://portfolio-ii09.onrender.com/api/testimonies')
             .then(res => res.json())
             .then(data => setTestimoniesData(data));
     }, []);
