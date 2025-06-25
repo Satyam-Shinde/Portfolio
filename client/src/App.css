@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body.dark .vertical-timeline-element-content {
+    background-color: #1a1c20 !important;
+    color: #eeeff1 !important;
+    border: 1px solid #4a76ee;
+}
+
+body.dark .vertical-timeline-element-date {
+    color: #aaa !important;
+}
+
+body.dark .vertical-timeline::before {
+    background: #4a76ee !important;
+}
+
+body.dark .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #4a76ee !important;
+}

@@ -1,0 +1,121 @@
+.contact_section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact_section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.group {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 3;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact_links {
+    margin-top: 20px;
+}
+
+.contact_link {
+    margin: 15px 0;
+}
+
+.social_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: 2px solid var(--accent-color);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text-color);
+    width: fit-content;
+    transition: all 0.2s ease;
+}
+
+.social_icon:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
+.group form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.group form label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.group form input,
+.group form textarea {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid var(--accent-color);
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+    border-radius: 12px;
+    transition: border-color 0.2s ease;
+}
+
+.group form input:focus,
+.group form textarea:focus {
+    border-color: var(--accent-color);
+}
+
+.group form button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 12px;
+}
+
+.group form button:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+@media (max-width: 740px) {
+    .group {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact_section {
+        padding: 0 20px;
+    }
+
+    .contact_link {
+        align-items: center;
+    }
+
+    .social_icon {
+        width: 100%;
+        justify-content: center;
+    }
+}

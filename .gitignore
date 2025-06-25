@@ -1,0 +1,15 @@
+# Root
+node_modules/
+.env
+dist/
+
+# Client
+/client/node_modules
+/client/.env.local
+/client/src/Json
+
+# Server
+/server/node_modules
+/server/.env
+/server/seed
+
