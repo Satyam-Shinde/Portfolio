@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Projects.module.css';
-import projectData from '../../Json/Projects.json';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 const Projects = () => {

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Testimony.module.css';
-import testimoniesData from '../../Json/Testimony.json';
 import { motion } from 'framer-motion';
 
 const Testimony = () => {
